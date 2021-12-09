@@ -1,0 +1,64 @@
+
+body
+{
+	background-color: blue;
+	color: white;
+}
+
+h1
+{
+	color: red;
+	font-size: 3em;
+}
+
+ul li
+{
+	list-style-type: none;
+
+}
+
+img
+{
+	float: left;
+}
+
+img:hover
+{
+	border: 20px rgb(30,24,68) dotted;
+
+}
+
+a
+{
+	color: black;
+	background-color: rgba(123,42,166,0.6);
+}
+
+a:hover
+{
+	color: green;
+	background-color: blue;
+}
+
+#carte
+{
+	width: 800px;
+	margin:0 auto;
+	background-image: url("photos_pour_html/20141213_201226.jpg");
+	text-align: center;
+	/*align-content: center;*/
+}
+
+#liste
+{
+	border: 5px rgb(200,50,180) double;
+	border-radius: 100px;
+	box-shadow: 2px 3px 10px green inset;
+	font-weight: bolder;
+	color: red;
+}
+
+.dessous
+{
+	clear: both;
+}
